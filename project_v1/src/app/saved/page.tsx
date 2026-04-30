@@ -1,5 +1,5 @@
 "use client";
-
+// added pages here
 import { useState, useEffect } from "react";
 import { useUser } from "@clerk/nextjs";
 import Link from "next/link";
