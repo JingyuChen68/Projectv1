@@ -18,12 +18,18 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" className="h-full antialiased">
-        <body className="min-h-full flex flex-col bg-gray-50">
+        <body className="min-h-full">
           <AppProvider>
-            <Navbar />
-            <main className="max-w-6xl mx-auto px-4 sm:px-6 py-8 flex-1 w-full">
-              {children}
-            </main>
+            <div className="tech-shell min-h-full">
+              <div className="relative z-10 flex min-h-screen flex-col">
+                <Navbar />
+                <main className="mx-auto flex w-full max-w-7xl flex-1 px-4 py-6 sm:px-6 lg:px-8 lg:py-8">
+                  <div className="tech-panel w-full p-4 sm:p-6 lg:p-8">
+                    {children}
+                  </div>
+                </main>
+              </div>
+            </div>
           </AppProvider>
         </body>
       </html>

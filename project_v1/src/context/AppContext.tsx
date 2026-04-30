@@ -51,23 +51,23 @@ export const QUESTION_CATEGORIES = [
 ];
 
 export const DIFFICULTY_COLORS: Record<string, string> = {
-  Easy: "bg-emerald-100 text-emerald-700",
-  Medium: "bg-amber-100 text-amber-700",
-  Hard: "bg-rose-100 text-rose-700",
+  Easy: "bg-emerald-400/15 text-emerald-200 border border-emerald-300/20",
+  Medium: "bg-amber-400/15 text-amber-100 border border-amber-300/20",
+  Hard: "bg-rose-400/15 text-rose-200 border border-rose-300/20",
 };
 
 export const STATUS_COLORS: Record<string, string> = {
-  "Not Started": "bg-gray-100 text-gray-600",
-  "In Progress": "bg-sky-100 text-sky-700",
-  Mastered: "bg-emerald-100 text-emerald-700",
+  "Not Started": "bg-slate-300/10 text-slate-300 border border-slate-200/10",
+  "In Progress": "bg-sky-400/15 text-sky-200 border border-sky-300/20",
+  Mastered: "bg-emerald-400/15 text-emerald-200 border border-emerald-300/20",
 };
 
 export const COMPANY_STATUS_COLORS: Record<string, string> = {
-  Researching: "bg-purple-100 text-purple-700",
-  Applied: "bg-sky-100 text-sky-700",
-  Interviewing: "bg-amber-100 text-amber-700",
-  Offer: "bg-emerald-100 text-emerald-700",
-  Rejected: "bg-rose-100 text-rose-700",
+  Researching: "bg-fuchsia-400/15 text-fuchsia-200 border border-fuchsia-300/20",
+  Applied: "bg-sky-400/15 text-sky-200 border border-sky-300/20",
+  Interviewing: "bg-amber-400/15 text-amber-100 border border-amber-300/20",
+  Offer: "bg-emerald-400/15 text-emerald-200 border border-emerald-300/20",
+  Rejected: "bg-rose-400/15 text-rose-200 border border-rose-300/20",
 };
 
 // Default checklist for embedded systems interviews
