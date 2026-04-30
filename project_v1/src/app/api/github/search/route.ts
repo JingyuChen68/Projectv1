@@ -6,7 +6,6 @@ export async function GET(request: NextRequest) {
   const page = searchParams.get("page") || "1";
   const perPage = searchParams.get("per_page") || "12";
 
-  // Just use the user's query directly
   const searchQuery = query;
 
   try {
