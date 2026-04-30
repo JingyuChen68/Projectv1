@@ -166,7 +166,7 @@ export default function IndustryPage() {
         className="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm focus:ring-2 focus:ring-orange-300 focus:border-orange-300 outline-none bg-white"
       />
 
-      {/* ─── COMPANIES TAB ─── */}
+      {/* ───COMPANIES TAB─── */}
       {tab === "companies" && (
         <div className="grid md:grid-cols-2 gap-4">
           {filteredCompanies.map((company) => {
